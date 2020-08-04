@@ -76,8 +76,10 @@
           <div class="w-6 mr-2">
             {#if item.icon}
               <svelte:component this={item.icon} />
-            {:else}
+            {:else if typeof item.color === 'string'}
               <Icon color={item.color} />
+            {:else}
+              <Icon />
             {/if}
           </div>
           <div>{item.text}</div>

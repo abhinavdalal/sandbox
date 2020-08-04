@@ -23,7 +23,7 @@
       {obj}
       {id}
       {active}
-      {isDragging}
-      {position} />
+      {isDragging} />
+      <!-- {position}  -->
   </Moveable>
 {/if}

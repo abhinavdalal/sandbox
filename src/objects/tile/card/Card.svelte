@@ -6,7 +6,7 @@
   export let active = false;
   export let forceFaceUp = false;
   export let forceFaceDown = false;
-  export let forceRotation;
+  export let forceRotation = 0;
   export let selectable = true;
 
   import { getContext } from 'svelte';

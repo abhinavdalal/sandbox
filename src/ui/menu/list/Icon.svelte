@@ -1,6 +1,6 @@
 <script>
   export let hollow = true;
-  export let color;
+  export let color = '#ff8700';
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 136 136">
